@@ -11,7 +11,7 @@ addons:
     - libgflags-dev
 
 install:
-  - git clone --tag=4.11.2 https://github.com/facebook/rocksdb.git
+  - git clone --branch=v4.11.2 https://github.com/facebook/rocksdb.git
   
 script:
   - cd rocksdb
