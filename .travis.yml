@@ -15,7 +15,7 @@ install:
   
 script:
   - cd rocksdb
-  - make shared_lib
+  - travis_wait 20 make shared_lib
   - strip librocksdb.so.4.11.2
 
 deploy:
