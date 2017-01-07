@@ -23,7 +23,7 @@ deploy:
   api_key:
     secure: "r+DgPg6cEap6onuuzkMLXf0kdfcgOScL6ddAgDb0qSmj1PZFza77Jjwa6I0FYVSh6VG//5ZRsFjKuFslsS3tjR8vJicjak6rdsofn/1oLIY27Vl0ZDzqD+N6KT7gA1F2l9kxbVzi91a+Ir1+K5lKWJkekrmLsQND/oBhpQaIpzwV7987IoGX2UcXfyv7igRJgABKDbka5A3qfjbsan/vJ/obN737E8gvy46kh+t3UXp2fzKVprv5pM7WEjky1fnjStsH0pGAUQjM2dDhjoKtKT3XFhwNTwoLQMtCvP3IWb+Z4qp9tTcSQVqlczWqimlIUrlPxEOaqa6qBTJE+cqkpoXZdz6nrzPgb1Gvc8EGGvdAB8AdTLr1ESYEL6t/w3z3uc+Jq6rQ33skOFHfDR5OEYzzNJmu5G0rUn7wBI1PNBXlrLp3ylZ4h7bPdap5SIjZdVFC+OJuo4rBw5Wzg0STPRl3Du1BLfHraFe+SW5phR4cj8mj27YgwJVfr/pe4a2xeVNtmKsfRNRXDMG2bBmA41Hw2r7YiHXTW14yfZmq2aCaPdZb37KpKihAwkjB62XV00dDxzTAVEyVzmzfzKFP79pYrR7K2a1drmr28bHw72Z0jjZQxGBtLE/s5MC/TWRfgQNnTZJXpGRJ4wWZjdxJxt3oWEE+eflXUz5STi85ARw="
   file:
-    - "./rocksdb/librocksdb.so.4.11.2"
+    - "librocksdb.so.4.11.2"
   skip_cleanup: true
   on:
     branch: master
